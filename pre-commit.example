@@ -21,7 +21,7 @@ data = ctx.eval("variant_list_data")
 accepted = True
 
 REQUIRED_VALUES = ["tags","color","credit","description","min_teams","max_teams","min_players_per_team","max_players_per_team"]
-VALID_COLORS = ["Black", "Purple", "Blue", "Green", "Orange", "Red"]
+VALID_COLORS = ["White", "Purple", "Blue", "Green", "Orange", "Red"]
 VALID_VALUES = ["name","tags","color","credit","description","external_links","notes","min_teams","max_teams","min_players_per_team","max_players_per_team"]
 
 for variant in data:
