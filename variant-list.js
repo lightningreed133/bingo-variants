@@ -31,7 +31,7 @@ let variant_list_data = [
         color:"Green",
         external_links:[{
             name:"Bookmark",
-            file:"/download-files/bingoMinesweeper.js",
+            file:"download-files/bingoMinesweeper.js",
         }],
         tags:["blackout"],
         min_teams:1,
