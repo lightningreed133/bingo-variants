@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.holder {
+    padding: 15px;
+}
+
+.variantBox {
+    outline: 2px solid;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.Black {
+    color: black;
+}
+
+.Purple {
+    color: rgb(140, 17, 171);
+}
+
+.Blue {
+    color: blue;
+}
+
+.Green {
+    color: rgb(17, 139, 17);
+}
+
+.Orange {
+    color: rgb(232, 152, 4);
+}
+
+.Red {
+    color: rgb(206, 2, 2);
+}
