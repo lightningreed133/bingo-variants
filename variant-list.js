@@ -4,7 +4,7 @@ let variant_list_data = [
         credit: "Initial draft made by Flesh, updated/maintained by Tim, jacks, marlin, truegen, amber, Spirity, aco, crab, and others.",
         description: "Two players compete to finish a board of 25 squares. First to tick 13 objectives wins. If one person ticks an objective, the other may not tick it. Prologue cutscenes are not skippable. Standard custom progression rules apply. Additional Notes: The main competitive gamemode and form of Celeste bingo. Highly conducive to strategy.",
         notes:"The main competitive gamemode and form of Celeste bingo. Highly conducive to strategy.",
-        color:"Black",
+        color:"White",
         tags:["lockout"],
         min_teams:2,
         max_teams:2,
@@ -31,7 +31,7 @@ let variant_list_data = [
         color:"Green",
         external_links:[{
             name:"Bookmark",
-            link:"https://discord.com/channels/529677942393929749/689529939975864453/1122479916244545566",
+            file:"/download-files/bingoMinesweeper.js",
         }],
         tags:["blackout"],
         min_teams:1,

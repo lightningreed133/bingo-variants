@@ -27,17 +27,25 @@ function variantToElement(variant){
 
     if (variant.external_links) {
         for (let linkData of variant.external_links){
-            let link = document.createElement("div");
-            link.className = "link";
-            link.innerHTML = `${linkData.name}: <a href="${linkData.link}">${linkData.link}</a>`;
-            div.appendChild(link);
+            if (linkData.link){
+                let link = document.createElement("div");
+                link.className = "link";
+                link.innerHTML = `${linkData.name}: <a href="${linkData.link}">${linkData.link}</a>`;
+                div.appendChild(link);
+            }
+            else if (linkData.file) {
+                let link = document.createElement("div");
+                link.className = "link";
+                link.innerHTML = `${linkData.name}: <a href="${linkData.file}" download="true">Download</a>`;
+                div.appendChild(link);
+            }
         }
     }
 
     return div;
 }
 
-const VARIANT_COLORS = ["Black", "Purple", "Blue", "Green", "Orange", "Red"];
+const VARIANT_COLORS = ["White", "Purple", "Blue", "Green", "Orange", "Red"];
 
 function addAllVariants(){
     for (let color of VARIANT_COLORS) {

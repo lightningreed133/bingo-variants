@@ -1,6 +1,7 @@
 body {
-    background-color: white;
-    color: black;
+    background-color: rgb(2, 0, 32);
+    color: white;
+    font-family: Verdana, sans-serif;
 }
 
 .holder {
@@ -9,6 +10,7 @@ body {
 
 .variantBox {
     outline: 2px solid;
+    outline-color: rgb(35, 25, 173);
     padding: 5px;
     margin: 5px 0px;
 }
@@ -17,8 +19,8 @@ h3 {
     margin: 0px;
 }
 
-.Black {
-    color: black;
+.White {
+    color: white;
 }
 
 .Purple {
