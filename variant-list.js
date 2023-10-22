@@ -27,4 +27,16 @@ let data = [
         }],
         tags:["blackout", "solo", "teams"]
     },
+
+    {
+        name: "Fullgo",
+        credit: "Epyc",
+        desciption: "A variant of lockout bingo in which every square requires you to complete an extremely long objective from an entirely new save file. After completing and ticking an objective, that save file must be deleted. First to 13 wins.",
+        color:"Red",
+        external_links:[{
+            name:"Generator",
+            link:"https://discord.com/channels/529677942393929749/689529939975864453/1068274121290551386",
+        }],
+        tags:["lockout", "lockout", "teams"]
+    },
 ]
