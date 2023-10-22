@@ -5,7 +5,11 @@ let variant_list_data = [
         description: "Two players compete to finish a board of 25 squares. First to tick 13 objectives wins. If one person ticks an objective, the other may not tick it. Prologue cutscenes are not skippable. Standard custom progression rules apply. Additional Notes: The main competitive gamemode and form of Celeste bingo. Highly conducive to strategy.",
         notes:"The main competitive gamemode and form of Celeste bingo. Highly conducive to strategy.",
         color:"Black",
-        tags:["lockout", "2-player"]
+        tags:["lockout"],
+        min_teams:2,
+        max_teams:2,
+        min_players_per_team:1,
+        max_players_per_team:1,
     },
 
     {
@@ -13,7 +17,11 @@ let variant_list_data = [
         credit: "Generator created by April, with input from various others",
         description: "A blackout version of the original longo generator. Standard lockout rules apply.",
         color:"Blue",
-        tags:["blackout", "solo", "teams"]
+        tags:["blackout"],
+        min_teams:1,
+        max_teams:null,
+        min_players_per_team:1,
+        max_players_per_team:null,
     },
 
     {
@@ -25,7 +33,11 @@ let variant_list_data = [
             name:"Bookmark",
             link:"https://discord.com/channels/529677942393929749/689529939975864453/1122479916244545566",
         }],
-        tags:["blackout", "solo", "teams"]
+        tags:["blackout"],
+        min_teams:1,
+        max_teams:null,
+        min_players_per_team:1,
+        max_players_per_team:null,
     },
 
     {
@@ -37,6 +49,10 @@ let variant_list_data = [
             name:"Generator",
             link:"https://discord.com/channels/529677942393929749/689529939975864453/1068274121290551386",
         }],
-        tags:["lockout", "lockout", "teams"]
+        tags:["lockout"],
+        min_teams:2,
+        max_teams:2,
+        min_players_per_team:1,
+        max_players_per_team:1,
     },
 ]
