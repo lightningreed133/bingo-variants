@@ -36,7 +36,7 @@ function variantToElement(variant){
             else if (linkData.file) {
                 let link = document.createElement("div");
                 link.className = "link";
-                link.innerHTML = `${linkData.name}: <a href="${linkData.file}" download="true">Download</a>`;
+                link.innerHTML = `${linkData.name}: <a href="${linkData.file}" download>Download</a>`;
                 div.appendChild(link);
             }
         }
@@ -47,12 +47,16 @@ function variantToElement(variant){
 
 const VARIANT_COLORS = ["White", "Purple", "Blue", "Green", "Orange", "Red"];
 
-function addAllVariants(){
+function renderVariants(variant_list){
     for (let color of VARIANT_COLORS) {
-        for (let variant of variant_list_data){
+        for (let variant of variant_list){
             if (!(variant.color == color)) continue;
 
             document.getElementById("holder").appendChild(variantToElement(variant))
         }
     }
+}
+
+function addAllVariants(){
+    renderVariants(variant_list_data)
 }

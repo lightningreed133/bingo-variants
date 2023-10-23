@@ -55,4 +55,31 @@ let variant_list_data = [
         min_players_per_team:1,
         max_players_per_team:1,
     },
+
+    {
+        name: "Lockout (1v2)",
+        credit: "None",
+        description: "A variant of lockout in which one team has two players and the other has one player. Standard lockout rules apply.",
+        color:"Blue",
+        notes:"Sometimes, the team of two players is allowed to communicate; sometimes, communication is prohibited.",
+        tags:["lockout"],
+        min_teams:2,
+        max_teams:2,
+        min_players_per_team:1,
+        max_players_per_team:2,
+        player_count_override:3
+    },
+
+    {
+        name: "Ktanego",
+        credit: "Cirion",
+        description: "A combination of KTANE (Keep Talking and Nobody Explodes) with bingo, including things like modules.",
+        color:"Orange",
+        notes:"Currently still a work in progress by Cirion.",
+        tags:["blackout", "unplayable"],
+        min_teams:1,
+        max_teams:1,
+        min_players_per_team:2,
+        max_players_per_team:2
+    }
 ]

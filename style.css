@@ -42,3 +42,40 @@ h3 {
 .Red {
     color: rgb(206, 2, 2);
 }
+
+.search-options {
+    outline: 2px solid;
+    outline-color: rgb(35, 25, 173);
+    float: left;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+.search-button-wrapper{
+    padding-top: 30px;
+    clear: both;
+}
+
+.search-button{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.homepage-button{
+    font-size: xx-large;
+    color:rgb(114, 114, 188);
+    outline: 2px solid;
+    outline-color: rgb(35, 25, 173);
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+
+.centered-box{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
