@@ -39,7 +39,9 @@ function fillSearch(){
 
     filters = [];
 
-    
+    random = false;
+
+
 
     for (let condition of conditions){
         let temp = condition.split(":");
@@ -65,6 +67,9 @@ function fillSearch(){
         if (key == "playersun") {
             filters.push((variant) => (calcPlayerCounts(variant, val, true)));
         }
+        if (key == "random") {
+            random = true;
+        }
     }
 
     let result = [];
@@ -82,6 +87,10 @@ function fillSearch(){
             console.log(variant.name);
             result.push(variant);
         }
+    }
+
+    if (random) {
+        result = [result[Math.floor(Math.random()*result.length)]];
     }
 
     renderVariants(result);

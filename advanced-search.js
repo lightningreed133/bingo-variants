@@ -2,7 +2,7 @@
 //window.location = 
 const COLORS = ["white", "purple", "blue", "green", "orange", "red"];
 
-function search(){
+function search(random){
     let queryString = "search-result.html?q=";
 
     let colorString = "";
@@ -42,6 +42,9 @@ function search(){
         queryString += `not:unplayable+`;
     }
 
+    if (random) {
+        queryString += `random:true+`;
+    }
 
 
     if (queryString.charAt(queryString.length-1) == "+"){
