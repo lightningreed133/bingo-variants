@@ -7,6 +7,7 @@ Original list of bingo variants maintained and updated by LightningReed133.
 Website made by Cirion02 and initially populated by LightningReed133.
 
 Changelog:
+11/13/23: Populated orange, red bingo variants.
 11/11/23: Populated green bingo variants.
 26/10/23: Populated black, purple, blue bingo variants.
 23/10/23: Site created
