@@ -564,11 +564,10 @@ let variant_list_data = [
         name: "Old Lockout",
         credit: "None",
         description: "A variant of lockout in which players play on the old lockout generator from before chapter 9 was released. Players do not play with custom progression. Prologue cutscenes are unskippable.",
-        notes: "The generator for this is improperly formatted. If you'd like to play this variant, feel free to reformat the generator to a json and ping @lightningreed133 with the updated version.",
         color: "Green",
         external_links:[{
             name:"Generator",
-            file:"download-files/old_lockout.txt",
+            file:"download-files/old_lockout.json",
         }],
         tags: ["lockout", "long", "unplayable"],
         min_teams: 2,
