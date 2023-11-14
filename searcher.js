@@ -70,6 +70,9 @@ function fillSearch(){
         if (key == "random") {
             random = true;
         }
+        if (key == "n") {
+            filters.push((variant) => (variant.name.toLowerCase().includes(val.toLowerCase())));
+        }
     }
 
     let result = [];
