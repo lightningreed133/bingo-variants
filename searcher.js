@@ -30,6 +30,23 @@ function calcPlayerCounts(variant, target, allowUnbalanced){
     return false;
 }
 
+const COLOR_ORDER = {
+    "white" : 0,
+    "purple" : 1,
+    "blue" : 2,
+    "green" : 3,
+    "orange" : 4,
+    "red" : 5,
+}
+
+function orderVariants(a, b){
+    let val = COLOR_ORDER[a.color.toLowerCase()] - COLOR_ORDER[b.color.toLowerCase()];
+
+    if (val != 0) return val;
+
+    return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1;
+}
+
 function fillSearch(){
     queryString = window.location.search;
     urlParams = new URLSearchParams(queryString);
@@ -78,7 +95,6 @@ function fillSearch(){
     let result = [];
 
     for (let variant of variant_list_data) {
-        console.log(variant.name);
         let accept = true;
         for (let filter of filters){
             if (!filter(variant)){
@@ -87,13 +103,15 @@ function fillSearch(){
             }
         }
         if (accept) {
-            console.log(variant.name);
             result.push(variant);
         }
     }
 
     if (random) {
         result = [result[Math.floor(Math.random()*result.length)]];
+    }
+    else {
+        result.sort(orderVariants)
     }
 
     renderVariants(result);
