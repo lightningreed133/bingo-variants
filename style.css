@@ -9,7 +9,7 @@ body {
 }
 
 .variantBox {
-    outline: 4px solid;
+    outline: 2px solid;
     outline-color: rgb(35, 25, 173);
     padding: 5px;
     margin: 5px 0px;
@@ -44,7 +44,7 @@ h3 {
 }
 
 .search-options {
-    outline: 4px solid;
+    outline: 2px solid;
     outline-color: rgb(35, 25, 173);
     float: left;
     padding: 5px;
@@ -64,7 +64,7 @@ h3 {
 .homepage-button{
     font-size: xx-large;
     color:rgb(114, 114, 188);
-    outline: 2px solid;
+    outline: 4px solid;
     outline-color: rgb(35, 25, 173);
     padding: 5px;
     margin: 0px 5px;
