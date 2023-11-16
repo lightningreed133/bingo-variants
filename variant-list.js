@@ -25,7 +25,7 @@ let variant_list_data = [
     },
     {
         name: "Ktango (Lockout)",
-        credit: "Piano, named ‘ktango' by metagloria, popularized by various",
+        credit: "Piano, named 'ktango' by metagloria, popularized by various",
         description: "Two teams of two players play on a bingo board of 25 objectives. Each team has a router, who may see the board, and a player, who cannot see the board but must play the game and get objectives. The router and the player communicate in a voice chat, and the player streams their game footage so the router may tick objectives. The router may not communicate about the board. Standard lockout rules apply.",
         notes:"A ktango-based tournament was held in April 2022. Ktango is sometimes used as a way to teach new bingo routers about the game (Coachtango).",
         color:"White",
@@ -177,7 +177,7 @@ let variant_list_data = [
         name: "Telektango",
         credit: "metagloria, with input from SuperZooper",
         description: "A variant of ktango in which each team has three people: A router, a communicator, and a player. The router is not allowed to look at the player's screen: instead, they must communicate via DMs with the communicator, who can talk to the player and relay information both ways.",
-        notes: "Originally known as ‘Celeste Bingo 2'. In some games, the router sits in a voice call with the opposing team's communicator and player, to promote communicators to be more vague with their instructors.",
+        notes: "Originally known as 'Celeste Bingo 2'. In some games, the router sits in a voice call with the opposing team's communicator and player, to promote communicators to be more vague with their instructors.",
         color:"Blue",
         tags:["lockout", "ktango", "cursed"],
         min_teams:2,
@@ -199,7 +199,7 @@ let variant_list_data = [
     {
         name: "Row Control",
         credit: "sonicyellow",
-        description: "A variant of lockout in which players only need to ‘control' three rows to claim victory. Players can control a row by getting any three objectives in that row.",
+        description: "A variant of lockout in which players only need to 'control' three rows to claim victory. Players can control a row by getting any three objectives in that row.",
         color:"Blue",
         tags:["lockout"],
         min_teams:2,
@@ -332,7 +332,7 @@ let variant_list_data = [
     {
         name: "Twitch Plays Ktango (TPK)",
         credit: "crab",
-        description: "Requires exactly 6 people. One person is designated the ‘player', while the other 5 are ‘routers', each having a bingo board. The first router to complete 3 lines on their bingo board wins. All routers anonymously post instructions for the player in the same channel, ‘Twitch Chat', and the player follows the most recently posted instruction, unless it is vetoed by a majority of players.",
+        description: "Requires exactly 6 people. One person is designated the 'player', while the other 5 are 'routers', each having a bingo board. The first router to complete 3 lines on their bingo board wins. All routers anonymously post instructions for the player in the same channel, 'Twitch Chat', and the player follows the most recently posted instruction, unless it is vetoed by a majority of players.",
         external_links:[{
             name:"Detailed Ruleset",
             link:"https://discord.com/channels/529677942393929749/1125096018317418627/1125215297364819988",
@@ -414,7 +414,7 @@ let variant_list_data = [
     {
         name: "Follow the Leadergo",
         credit: "metagloria",
-        description: "Multiple players (more than 2) play on a bingo board with 25 objectives. One person is designated the ‘leader' and declares an objective that all players must go for. The leader may not tick that objective. The first person to tick the declared objective becomes the new leader, and declares another objective which everyone must go for. Play continues until all 25 objectives are declared and ticked.",
+        description: "Multiple players (more than 2) play on a bingo board with 25 objectives. One person is designated the 'leader' and declares an objective that all players must go for. The leader may not tick that objective. The first person to tick the declared objective becomes the new leader, and declares another objective which everyone must go for. Play continues until all 25 objectives are declared and ticked.",
         color: "Green",
         tags: ["blackout"],
         min_teams: 1,
@@ -552,7 +552,7 @@ let variant_list_data = [
     {
         name: "Crow Control Bingo",
         credit: "Azula, wiz independently",
-        description: "An application of the ‘Crow Control' Celeste mod to bingo. Two players play bingo while both games are hooked up to a single twitch stream, in which viewers may spawn obstacles or cause the players to gain variants, die, or become invincible.",
+        description: "An application of the 'Crow Control' Celeste mod to bingo. Two players play bingo while both games are hooked up to a single twitch stream, in which viewers may spawn obstacles or cause the players to gain variants, die, or become invincible.",
         color: "Green",
         tags: ["lockout", "long"],
         min_teams: 2,
@@ -612,7 +612,7 @@ let variant_list_data = [
     {
         name: "Bingo but Canon",
         credit: "Reed",
-        description: "A variant of lockout bingo in which each player has a ‘life' counter starting at 1. Collecting a 1-UP increases a player's life counter by 1. Dying reduces a player's life counter by 1. If a player's life counter drops to 0, they must delete their file and start a new file, replaying prologue.",
+        description: "A variant of lockout bingo in which each player has a 'life' counter starting at 1. Collecting a 1-UP increases a player's life counter by 1. Dying reduces a player's life counter by 1. If a player's life counter drops to 0, they must delete their file and start a new file, replaying prologue.",
         color: "Green",
         tags: ["lockout", "cursed", "difficult"],
         min_teams: 2,
