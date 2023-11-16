@@ -1086,7 +1086,11 @@ let variant_list_data = [
         credit: "RandomName",
         description: "Two players play on a 3x3 board of 9 mess orders, including 4-length orders like Chests-Books-Towels-Books. If a player completes a line of 3 orders, they win.",
         color:"Orange",
-        tags:["lockout", "short", "cursed", "unplayable"],
+        external_links:[{
+            name:"Generator",
+            file:"download-files/tic_tac_go.json",
+        }],
+        tags:["lockout", "short", "cursed"],
         min_teams:2,
         max_teams:2,
         min_players_per_team:1,
