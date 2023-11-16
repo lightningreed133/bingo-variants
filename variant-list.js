@@ -199,7 +199,7 @@ let variant_list_data = [
     {
         name: "Row Control",
         credit: "sonicyellow",
-        description: "A variant of lockout in which players only need to ‘control’ three rows to claim victory. Players can control a row by getting any three objectives in that row.",
+        description: "A variant of lockout in which players only need to 'control' three rows to claim victory. Players can control a row by getting any three objectives in that row.",
         color: "Blue",
         tags:["lockout"],
         min_teams:2,
@@ -533,7 +533,7 @@ let variant_list_data = [
         color: "Green",
         external_links:[{
             name:"Generator Scraps",
-            file:"https://docs.google.com/spreadsheets/d/16YVIat4UIjuy_TvXCU9RX03_3fGmi5et0qN_ElduQik/edit#gid=497655973",
+            link:"https://docs.google.com/spreadsheets/d/16YVIat4UIjuy_TvXCU9RX03_3fGmi5et0qN_ElduQik/edit#gid=497655973",
         }],
         tags: ["lockout", "custom-generator", "unplayable"],
         min_teams: 2,
