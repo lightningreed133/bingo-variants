@@ -374,7 +374,7 @@ let variant_list_data = [
     {
         name: "VC Lockout",
         credit: "none",
-        description: "A variant of lockout in which players sit in the same VC, allowing for players to lie to eachother and use social cues to try guess where the other player is.",
+        description: "A variant of lockout in which players sit in the same VC, allowing for players to lie to each other and use social cues to try guess where the other player is.",
         color:"Blue",
         tags: ["lockout"],
         min_teams: 2,
