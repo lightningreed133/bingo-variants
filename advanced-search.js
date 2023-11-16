@@ -42,6 +42,10 @@ function search(random){
         queryString += `not:unplayable+`;
     }
 
+    if (document.getElementById("no-cursed").checked) {
+        queryString += `not:unplayable+`;
+    }
+
     let name = document.getElementById("name-search").value.toLowerCase().trim();
     if (name != "") {
         queryString += `n:${name}+`;
