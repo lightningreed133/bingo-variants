@@ -9,7 +9,7 @@ body {
 }
 
 .variantBox {
-    outline: 2px solid;
+    outline: 4px solid;
     outline-color: rgb(35, 25, 173);
     padding: 5px;
     margin: 5px 0px;
@@ -44,7 +44,7 @@ h3 {
 }
 
 .search-options {
-    outline: 2px solid;
+    outline: 4px solid;
     outline-color: rgb(35, 25, 173);
     float: left;
     padding: 5px;

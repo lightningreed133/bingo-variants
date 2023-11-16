@@ -102,11 +102,11 @@ let variant_list_data = [
         color:"Purple",
         external_links:[
             {
-                name:"General Explanatory Video:",
+                name:"General Explanatory Video",
                 link:"https://youtu.be/0HRAjUbGwJo",
             },
             {
-                name:"Celeste-Specific Explanatory Video (made by metagloria):",
+                name:"Celeste-Specific Explanatory Video (made by metagloria)",
                 link:"https://www.youtube.com/watch?v=OE2887GqBiQ",
             }
         ],
@@ -200,7 +200,7 @@ let variant_list_data = [
         name: "Row Control",
         credit: "sonicyellow",
         description: "A variant of lockout in which players only need to ‘control’ three rows to claim victory. Players can control a row by getting any three objectives in that row.",
-        color:"Blue",
+        color: "Blue",
         tags:["lockout"],
         min_teams:2,
         max_teams:2,
@@ -311,6 +311,10 @@ let variant_list_data = [
         credit: "April",
         description: "A variant of longo meant to be played on a 6x6 board, with even longer objectives.",
         color:"Blue",
+        external_links:[{
+            name:"Generator",
+            file:"download-files/6_by_6_longo.json",
+        }],
         tags:["blackout", "long", "difficult"],
         min_teams:1,
         max_teams:null,
@@ -1076,6 +1080,17 @@ let variant_list_data = [
         max_teams:1,
         min_players_per_team:2,
         max_players_per_team:2
+    },
+    {
+        name: "Tic-Tac-go",
+        credit: "RandomName",
+        description: "Two players play on a 3x3 board of 9 mess orders, including 4-length orders like Chests-Books-Towels-Books. If a player completes a line of 3 orders, they win.",
+        color:"Orange",
+        tags:["lockout", "short", "cursed", "unplayable"],
+        min_teams:2,
+        max_teams:2,
+        min_players_per_team:1,
+        max_players_per_team:1
     },
     {
         name: "Codenames Bingo",
