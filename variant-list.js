@@ -25,7 +25,7 @@ let variant_list_data = [
     },
     {
         name: "Ktango (Lockout)",
-        credit: "Piano, named ‘ktango’ by metagloria, popularized by various",
+        credit: "Piano, named 'ktango' by metagloria, popularized by various",
         description: "Two teams of two players play on a bingo board of 25 objectives. Each team has a router, who may see the board, and a player, who cannot see the board but must play the game and get objectives. The router and the player communicate in a voice chat, and the player streams their game footage so the router may tick objectives. The router may not communicate about the board. Standard lockout rules apply.",
         notes:"A ktango-based tournament was held in April 2022. Ktango is sometimes used as a way to teach new bingo routers about the game (Coachtango).",
         color:"White",
@@ -154,7 +154,7 @@ let variant_list_data = [
     {
         name: "Kt2ngo",
         credit: "metagloria",
-        description: "A variant of ktango in which each team has three people, two routers and one player. Each router routes against an opposing router on a bingo board with 25 objectives, and both routers control the same player to work towards both boards. Routers are not allowed to communicate about their boards or give specific information about their opponent’s position. First team to 25 objectives wins.",
+        description: "A variant of ktango in which each team has three people, two routers and one player. Each router routes against an opposing router on a bingo board with 25 objectives, and both routers control the same player to work towards both boards. Routers are not allowed to communicate about their boards or give specific information about their opponent's position. First team to 25 objectives wins.",
         color:"Blue",
         tags:["lockout", "ktango", "cursed"],
         min_teams:2,
@@ -176,8 +176,8 @@ let variant_list_data = [
     {
         name: "Telektango",
         credit: "metagloria, with input from SuperZooper",
-        description: "A variant of ktango in which each team has three people: A router, a communicator, and a player. The router is not allowed to look at the player’s screen: instead, they must communicate via DMs with the communicator, who can talk to the player and relay information both ways.",
-        notes: "Originally known as ‘Celeste Bingo 2’. In some games, the router sits in a voice call with the opposing team’s communicator and player, to promote communicators to be more vague with their instructors.",
+        description: "A variant of ktango in which each team has three people: A router, a communicator, and a player. The router is not allowed to look at the player's screen: instead, they must communicate via DMs with the communicator, who can talk to the player and relay information both ways.",
+        notes: "Originally known as 'Celeste Bingo 2'. In some games, the router sits in a voice call with the opposing team's communicator and player, to promote communicators to be more vague with their instructors.",
         color:"Blue",
         tags:["lockout", "ktango", "cursed"],
         min_teams:2,
@@ -246,7 +246,7 @@ let variant_list_data = [
         max_players_per_team:1,
     },
     {
-        name: "Cirion’s Cursed Bingo",
+        name: "Cirion's Cursed Bingo",
         credit: "Cirion",
         description: "Players play lockout (or blackout) bingo on a completely new generator and board of objectives.",
         notes:"A tournament for this generator (known as Blind Bingo Tournament) was hosted in August 2022. Despite its name, the generator is not incredibly cursed.",
@@ -325,8 +325,8 @@ let variant_list_data = [
         name: "Cheat Mode Bingo",
         credit: "metagloria, with input from Reed, crab, Cirion",
         description: "A variant of lockout or blackout in which players begin by activating cheat mode, which lets them access any chapter. A new generator is created to balance accessibility and contain fun things like C-sides.",
-        notes: "According to cheat mode rules, ‘Complete’ a chapter means completing all checkpoints, whereas any collectible (e.g. red hearts) can be obtained just in that checkpoint.",
-        color:"Blue",
+        notes: "According to cheat mode rules, 'Complete' a chapter means completing all checkpoints, whereas any collectible (e.g. red hearts) can be obtained just in that checkpoint.",
+        color: "Blue",
         tags: ["blackout", "lockout", "custom-generator", "difficult"],
         min_teams: 1,
         max_teams: null,
@@ -336,7 +336,7 @@ let variant_list_data = [
     {
         name: "Twitch Plays Ktango (TPK)",
         credit: "crab",
-        description: "Requires exactly 6 people. One person is designated the ‘player’, while the other 5 are ‘routers’, each having a bingo board. The first router to complete 3 lines on their bingo board wins. All routers anonymously post instructions for the player in the same channel, ‘Twitch Chat’, and the player follows the most recently posted instruction, unless it is vetoed by a majority of players.",
+        description: "Requires exactly 6 people. One person is designated the 'player', while the other 5 are 'routers', each having a bingo board. The first router to complete 3 lines on their bingo board wins. All routers anonymously post instructions for the player in the same channel, 'Twitch Chat', and the player follows the most recently posted instruction, unless it is vetoed by a majority of players.",
         external_links:[{
             name:"Detailed Ruleset",
             link:"https://discord.com/channels/529677942393929749/1125096018317418627/1125215297364819988",
@@ -351,8 +351,8 @@ let variant_list_data = [
     {
         name: "Predictiongo",
         credit: "ilikerandom",
-        description: "Two players are given a board of 25 objectives and they must each make a list of times they expect the objectives to be ticked. A separate player plays the entire board blackout, and whoever’s guessed time for that objective is closest to when it is actually completed gets the objective. Whoever gets a majority of objectives wins.",
-        color:"Blue",
+        description: "Two players are given a board of 25 objectives and they must each make a list of times they expect the objectives to be ticked. A separate player plays the entire board blackout, and whoever's guessed time for that objective is closest to when it is actually completed gets the objective. Whoever gets a majority of objectives wins.",
+        color: "Blue",
         tags: ["cursed"],
         min_teams: 3,
         max_teams: 3,
@@ -418,7 +418,7 @@ let variant_list_data = [
     {
         name: "Follow the Leadergo",
         credit: "metagloria",
-        description: "Multiple players (more than 2) play on a bingo board with 25 objectives. One person is designated the ‘leader’ and declares an objective that all players must go for. The leader may not tick that objective. The first person to tick the declared objective becomes the new leader, and declares another objective which everyone must go for. Play continues until all 25 objectives are declared and ticked.",
+        description: "Multiple players (more than 2) play on a bingo board with 25 objectives. One person is designated the 'leader' and declares an objective that all players must go for. The leader may not tick that objective. The first person to tick the declared objective becomes the new leader, and declares another objective which everyone must go for. Play continues until all 25 objectives are declared and ticked.",
         color: "Green",
         tags: ["blackout"],
         min_teams: 1,
@@ -556,7 +556,7 @@ let variant_list_data = [
     {
         name: "Crow Control Bingo",
         credit: "Azula, wiz independently",
-        description: "An application of the ‘Crow Control’ Celeste mod to bingo. Two players play bingo while both games are hooked up to a single twitch stream, in which viewers may spawn obstacles or cause the players to gain variants, die, or become invincible.",
+        description: "An application of the 'Crow Control' Celeste mod to bingo. Two players play bingo while both games are hooked up to a single twitch stream, in which viewers may spawn obstacles or cause the players to gain variants, die, or become invincible.",
         color: "Green",
         tags: ["lockout", "long"],
         min_teams: 2,
@@ -568,11 +568,10 @@ let variant_list_data = [
         name: "Old Lockout",
         credit: "None",
         description: "A variant of lockout in which players play on the old lockout generator from before chapter 9 was released. Players do not play with custom progression. Prologue cutscenes are unskippable.",
-        notes: "The generator for this is improperly formatted. If you'd like to play this variant, feel free to reformat the generator to a json and ping @lightningreed133 with the updated version.",
         color: "Green",
         external_links:[{
             name:"Generator",
-            file:"download-files/old_lockout.txt",
+            file:"download-files/old_lockout.json",
         }],
         tags: ["lockout", "long", "unplayable"],
         min_teams: 2,
@@ -595,7 +594,7 @@ let variant_list_data = [
     {
         name: "25 Objective Draft",
         credit: "metagloria",
-        description: "A variant of lockout in which players begin by picking all objectives on the board from the generator of 200+ objectives. Players alternate picking objectives from each of the generator’s 25 tiers: once an objective from a tier has been chosen, no other objective from that tier can be chosen. Once all 25 objectives are chosen, normal lockout play begins.",
+        description: "A variant of lockout in which players begin by picking all objectives on the board from the generator of 200+ objectives. Players alternate picking objectives from each of the generator's 25 tiers: once an objective from a tier has been chosen, no other objective from that tier can be chosen. Once all 25 objectives are chosen, normal lockout play begins.",
         color: "Green",
         tags: ["lockout"],
         min_teams: 2,
@@ -617,7 +616,7 @@ let variant_list_data = [
     {
         name: "Bingo but Canon",
         credit: "Reed",
-        description: "A variant of lockout bingo in which each player has a ‘life’ counter starting at 1. Collecting a 1-UP increases a player’s life counter by 1. Dying reduces a player’s life counter by 1. If a player’s life counter drops to 0, they must delete their file and start a new file, replaying prologue.",
+        description: "A variant of lockout bingo in which each player has a 'life' counter starting at 1. Collecting a 1-UP increases a player's life counter by 1. Dying reduces a player's life counter by 1. If a player's life counter drops to 0, they must delete their file and start a new file, replaying prologue.",
         color: "Green",
         tags: ["lockout", "cursed", "difficult"],
         min_teams: 2,
@@ -746,7 +745,7 @@ let variant_list_data = [
     {
         name: "Chessgo",
         credit: "Cirion",
-        description: "64 bingo objectives are placed on a chessboard. Normal chess pieces are also placed on the chess board. By completing an objective on a square, you may move a piece to that square (if that movement is valid by chess rules), and the objective on it gets refreshed. There is no turn order. Whoever captures the opponent’s king first wins.",
+        description: "64 bingo objectives are placed on a chessboard. Normal chess pieces are also placed on the chess board. By completing an objective on a square, you may move a piece to that square (if that movement is valid by chess rules), and the objective on it gets refreshed. There is no turn order. Whoever captures the opponent's king first wins.",
         color:"Green",
         tags:["lockout", "cursed"],
         min_teams:2,
@@ -757,7 +756,7 @@ let variant_list_data = [
     {
         name: "Asyncgo",
         credit: "rhelmot",
-        description: "A variant of lockout bingo in which two people play all 25 objectives on a bingo board, and then ticks and lockouts are applied retroactively, so that players must route without knowing what their opponent’s route is. After both players have ticked all objectives, logs are examined to decide who won what objective. Whoever wins 13 or more objectives wins.",
+        description: "A variant of lockout bingo in which two people play all 25 objectives on a bingo board, and then ticks and lockouts are applied retroactively, so that players must route without knowing what their opponent's route is. After both players have ticked all objectives, logs are examined to decide who won what objective. Whoever wins 13 or more objectives wins.",
         notes:"This can be played with one opponent being a TAS, and is referred to as TAS Blackout.",
         color:"Green",
         tags:["lockout"],
@@ -862,7 +861,7 @@ let variant_list_data = [
     {
         name: "Positive Negative Bingo",
         credit: "bulletinfi",
-        description: "A variant of lockout in which players have 2 standard lockout boards. The first is played normally, but on the second board, players must tick off objectives immediately if completed. Objectives on the second board reduce a player’s score by 1. Whoever has more points when the first board is completed wins.",
+        description: "A variant of lockout in which players have 2 standard lockout boards. The first is played normally, but on the second board, players must tick off objectives immediately if completed. Objectives on the second board reduce a player's score by 1. Whoever has more points when the first board is completed wins.",
         color:"Green",
         tags:["lockout", "cursed"],
         min_teams:2,
@@ -896,7 +895,7 @@ let variant_list_data = [
     {
         name: "Othellgo or Bingothello",
         credit: "metagloria, Ninja independently",
-        description: "A variant of lockout in which whenever a player ticks an objective, such that there is in one of the 8 cardinal directions only objectives belonging to the opponent, followed by an objective of the ticking player, then all objectives in between the player’s two objectives are turned the player’s color.",
+        description: "A variant of lockout in which whenever a player ticks an objective, such that there is in one of the 8 cardinal directions only objectives belonging to the opponent, followed by an objective of the ticking player, then all objectives in between the player's two objectives are turned the player's color.",
         color:"Green",
         tags:["lockout", "cursed"],
         min_teams:2,
@@ -941,7 +940,7 @@ let variant_list_data = [
     {
         name: "VIPgo",
         credit: "ilikerandom",
-        description: "A variant of lockout in which each player, before the game, selects one special “VIP” objective. Players do not know their opponent’s VIP objective. If a player manages to successfully tick off their opponent’s VIP objective, they immediately win.",
+        description: "A variant of lockout in which each player, before the game, selects one special \"VIP\" objective. Players do not know their opponent's VIP objective. If a player manages to successfully tick off their opponent's VIP objective, they immediately win.",
         color:"Green",
         tags:["lockout"],
         min_teams:2,
@@ -1110,7 +1109,7 @@ let variant_list_data = [
     {
         name: "Desyncgo",
         credit: "metagloria",
-        description: "A variant of lockout bingo in which each player has their own board. A third, neutral player (the relayer) enters both rooms. Each time an objective is ticked on one board, the relayer ticks the objective that is in the same position on the other team’s board. First to 13 wins.",
+        description: "A variant of lockout bingo in which each player has their own board. A third, neutral player (the relayer) enters both rooms. Each time an objective is ticked on one board, the relayer ticks the objective that is in the same position on the other team's board. First to 13 wins.",
         notes: "Has been suggested in a ktango format, desynktango.",
         color:"Orange",
         tags:["lockout", "ktango", "cursed"],
@@ -1197,7 +1196,7 @@ let variant_list_data = [
     {
         name: "Splatoongo / Thiefgo",
         credit: "idontexist, ilikerandom, independently",
-        description: "A board is generated with 25 very short, nonspecific, repeatable objectives (such as ‘Get 1 bino’ or ‘Get to a multiple of 5 berries’). If you complete an objective, you may tick it your color, and your progress to that objective resets. You may override another player’s ticked cell, if you have just completed the objective. After a fixed period of time, the player with more completed objectives wins.",
+        description: "A board is generated with 25 very short, nonspecific, repeatable objectives (such as 'Get 1 bino' or 'Get to a multiple of 5 berries'). If you complete an objective, you may tick it your color, and your progress to that objective resets. You may override another player's ticked cell, if you have just completed the objective. After a fixed period of time, the player with more completed objectives wins.",
         notes: "No generator currently exists. ilikerandom suggested Thiefgo, a similar variant but using the original generator, with delaying disallowed, and only allowing players to steal an objective a finite number of times.",
         color:"Orange",
         tags:["lockout"],
@@ -1235,7 +1234,7 @@ let variant_list_data = [
     {
         name: "Celeste Bingo 2 (Metabingo)",
         credit: "FlyingLudicolo",
-        description: "A variant of lockout bingo in which every square itself is an entire bingo board subject to some additional constraint, such as ‘super dashing on’ or ‘assist skip city’. Winning a bingo board with that constraint gets a player one mini-board. First to 13 objectives on each mini-board wins that mini-board. First to 13 mini-boards wins.",
+        description: "A variant of lockout bingo in which every square itself is an entire bingo board subject to some additional constraint, such as 'super dashing on' or 'assist skip city'. Winning a bingo board with that constraint gets a player one mini-board. First to 13 objectives on each mini-board wins that mini-board. First to 13 mini-boards wins.",
         notes: "JimmyClyde suggested having each square be a separate bingo variant. Metagloria suggested having an entire bingo tournament where every round or game is a new variant. A tournament for this format was started in September 2023, but it was unfinished due to general player disinterest.",
         color:"Red",
         tags:["lockout", "long", "unplayable"],

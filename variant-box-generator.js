@@ -48,15 +48,16 @@ function variantToElement(variant){
 const VARIANT_COLORS = ["White", "Purple", "Blue", "Green", "Orange", "Red"];
 
 function renderVariants(variant_list){
-    for (let color of VARIANT_COLORS) {
-        for (let variant of variant_list){
-            if (!(variant.color == color)) continue;
-
-            document.getElementById("holder").appendChild(variantToElement(variant))
-        }
+    for (let variant of variant_list){
+        document.getElementById("holder").appendChild(variantToElement(variant))
     }
 }
 
 function addAllVariants(){
-    renderVariants(variant_list_data)
+    let temp = variant_list_data;
+    temp.sort(orderVariants);
+
+    console.log(temp);
+
+    renderVariants(temp)
 }

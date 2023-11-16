@@ -70,12 +70,14 @@ function fillSearch(){
         if (key == "random") {
             random = true;
         }
+        if (key == "n") {
+            filters.push((variant) => (variant.name.toLowerCase().includes(val.toLowerCase())));
+        }
     }
 
     let result = [];
 
     for (let variant of variant_list_data) {
-        console.log(variant.name);
         let accept = true;
         for (let filter of filters){
             if (!filter(variant)){
@@ -84,13 +86,15 @@ function fillSearch(){
             }
         }
         if (accept) {
-            console.log(variant.name);
             result.push(variant);
         }
     }
 
     if (random) {
         result = [result[Math.floor(Math.random()*result.length)]];
+    }
+    else {
+        result.sort(orderVariants)
     }
 
     renderVariants(result);

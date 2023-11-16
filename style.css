@@ -1,6 +1,6 @@
 body {
     background-color: rgb(2, 0, 32);
-    color: white;
+    color: rgb(162, 162, 162);
     font-family: Verdana, sans-serif;
 }
 
@@ -78,4 +78,10 @@ h3 {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.options-row{
+    display:inline-block;
+    width:100%;
+    padding-bottom: 20px;
 }

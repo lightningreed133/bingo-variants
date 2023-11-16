@@ -42,6 +42,11 @@ function search(random){
         queryString += `not:unplayable+`;
     }
 
+    let name = document.getElementById("name-search").value.toLowerCase().trim();
+    if (name != "") {
+        queryString += `n:${name}+`;
+    }
+
     if (random) {
         queryString += `random:true+`;
     }
