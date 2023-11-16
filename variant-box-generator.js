@@ -53,26 +53,9 @@ function renderVariants(variant_list){
     }
 }
 
-const COLOR_ORDER_All = {
-    "white" : 0,
-    "purple" : 1,
-    "blue" : 2,
-    "green" : 3,
-    "orange" : 4,
-    "red" : 5,
-}
-
-function orderVariantsAll(a, b){
-    let val = COLOR_ORDER_All[a.color.toLowerCase()] - COLOR_ORDER_All[b.color.toLowerCase()];
-
-    if (val != 0) return val;
-
-    return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1;
-}
-
 function addAllVariants(){
     let temp = variant_list_data;
-    temp.sort(orderVariantsAll);
+    temp.sort(orderVariants);
 
     console.log(temp);
 

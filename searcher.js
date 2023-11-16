@@ -30,23 +30,6 @@ function calcPlayerCounts(variant, target, allowUnbalanced){
     return false;
 }
 
-const COLOR_ORDER = {
-    "white" : 0,
-    "purple" : 1,
-    "blue" : 2,
-    "green" : 3,
-    "orange" : 4,
-    "red" : 5,
-}
-
-function orderVariants(a, b){
-    let val = COLOR_ORDER[a.color.toLowerCase()] - COLOR_ORDER[b.color.toLowerCase()];
-
-    if (val != 0) return val;
-
-    return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1;
-}
-
 function fillSearch(){
     queryString = window.location.search;
     urlParams = new URLSearchParams(queryString);
